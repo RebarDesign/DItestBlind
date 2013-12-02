@@ -1,0 +1,68 @@
+* {
+	outline: none;
+	tap-highlight-color: transparent;
+	-webkit-tap-highlight-color: transparent;
+	}
+
+
+body {
+	background-color: #000;
+	background-image: url(../img/wood-floorB.jpg);
+	background-size:600px 300px;
+	overflow:hidden;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	zoom: 30%;
+	width:3000px;
+	height:1000px;
+}
+
+#romB13 {
+	position: absolute;
+	left: 87px;
+	top: 20px;
+	width: 300px;
+	}
+	
+#romB13 ul{
+	list-style:none;
+	width: 340px;
+	
+	padding-left:14px;
+	}
+	
+#romB13 ul li {
+	display:inline;
+	margin: 10px;
+}
+	
+#romB13 img {
+	width:50px;
+	height:70px;
+}
+
+.blind {
+
+	}
+	
+.blindSelected {
+	background-color:rgba(28,244,255,0.2);
+	-webkit-box-shadow: inset 0px 2px 2px 4px rgba(0, 0, 0, 0.5);
+	box-shadow: inset 0px 2px 2px 4px rgba(0, 0, 0, 0.5);
+	user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;	
+	}
+	
+.roomText {
+	user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	text-align:center;
+	font-size:2em;
+	color:rgba(255, 255, 255, 0.9);
+	text-shadow:2px 2px 5px #000;
+	font-weight:300;
+	
+	
+	
+	}
